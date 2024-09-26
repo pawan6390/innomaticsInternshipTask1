@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Layout</title>
+    <style>
+        table {
+            width: 200px;
+            height: 100px;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="6">Final Examination Schedule - Fall 2008</th>
+        </tr>
+
+        <tr>
+            <th></th>
+            <th>Monday Dec.15</th>
+            <th>Tuesday Dec.16</th>
+            <th>Wednesday Dec.17</th>
+            <th>Thursday Dec.18</th>
+            <td bgcolor="pink" rowspan="6">HOME</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="gray">8:00 a.m.</td>
+            <td>Data Stuctures</td>
+            <td>Algorithms</td>
+            <td>Computer Networks</td>
+            <td>Database System</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="gray">10:00 a.m.</td>
+            <td>Operating System</td>
+            <td>Artificial Intelligence</td>
+            <td>Software Engineering</td>
+            <td>Web Development</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="gray">1:00 p.m.</td>
+            <td>Machine Learning</td>
+            <td>Cyber Security</td>
+            <td>Mobile Computing</td>
+            <td>Human-Computer Interaction</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="gray">3:00 p.m</td>
+            <td>Big Data Analytics</td>
+            <td>Cloud Computing</td>
+            <td>Parallel Computing</td>
+            <td>Computer Graphics</td>
+        </tr>
+    </table>
+</body>
+
+</html>
